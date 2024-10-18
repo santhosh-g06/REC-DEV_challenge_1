@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Ecommerce</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+</head>
+
+<body>
+    <!--navbar-->
+    <nav>
+        <a href="#" class="brand"><i class="bx bx-meteor"></i>Kaipilla</a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+        <ul>
+            <li><a href="#home" class="home-active">Home</a></li>
+            <li><a href="#items">Items</a></li>
+            <li><a href="#cart">Cart</a></li>
+            <li><a href="#login">Login</a></li>
+        </ul>
+    </nav>
+
+    <!--homepage-->
+
+    <section class="home swiper" id="home">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="home-text">
+                        <span class="text">Check out the trending fashion</span>
+                        <h1 class="text">New arrivals for men and women</h1>
+                        <a href="#" class="btn">Shop Now<i class="bx bx-right-arrow-alt"></i></a>
+                    </div>
+                    <img src="/assets/images/homeimg1.bmp" alt="" />
+                </div>
+                <div class="swiper-slide">
+                    <div class="home-text">
+                        <span class="text">Check out the trending fashion</span>
+                        <h1 class="text">New arrivals for men and women</h1>
+                        <a href="#" class="btn">Shop Now<i class="bx bx-right-arrow-alt"></i></a>
+                    </div>
+                    <img src="/assets/images/homeimg2.bmp" alt="" />
+                </div>
+                <div class="swiper-slide">
+                    <div class="home-text">
+                        <span class="text">Check out the trending fashion</span>
+                        <h1 class="text">New arrivals for men and women</h1>
+                        <a href="#" class="btn">Shop Now<i class="bx bx-right-arrow-alt"></i></a>
+                    </div>
+                    <img src="/assets/images/homeimg3.bmp" alt="" />
+                </div>
+                <div class="swiper-slide">
+                    <div class="home-text">
+                        <span class="text">Check out the trending fashion</span>
+                        <h1 class="text">New arrivals for men and women</h1>
+                        <a href="#" class="btn">Shop Now<i class="bx bx-right-arrow-alt"></i></a>
+                    </div>
+                    <img src="/assets/images/homeimg4.bmp" alt="" />
+                </div>
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        </div>
+
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        <script>
+            const swiper = new Swiper('.swiper-container', {
+                loop: true,
+                pagination: {
+                    el: '.swiper-pagination',
+                    clickable: true,
+                },
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+            });
+        </script>
+    </section>
+    <h1 class="head">Our latest products</h1>
+    <section class="sec">
+        <div class="products">
+
+            <div class="card">
+                <div class="img"><img src="assets/images/images (1).jpg"></div>
+                <div class="desc">Men</div>
+                <div class="title">T-shirt</div>
+                <div class="box">
+                    <div class="price">$15</div>
+                    <button class="btn">Buy Now</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="img"><img src="assets/images/images (2).jpg"></div>
+                <div class="desc">Women</div>
+                <div class="title">Hoddies</div>
+                <div class="box">
+                    <div class="price">$25</div>
+                    <button class="btn">Buy Now</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="img"><img src="assets/images/images (3).jpg"></div>
+                <div class="desc">Men</div>
+                <div class="title">Hoddies</div>
+                <div class="box">
+                    <div class="price">$37</div>
+                    <button class="btn">Buy Now</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="img"><img src="assets/images/images (4).jpg"></div>
+                <div class="desc">Women</div>
+                <div class="title">T-shirt</div>
+                <div class="box">
+                    <div class="price">$10</div>
+                    <button class="btn">Buy Now</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="img"><img src="assets/images/images (5).jpg"></div>
+                <div class="desc">Men</div>
+                <div class="title">T-shirt</div>
+                <div class="box">
+                    <div class="price">$17</div>
+                    <button class="btn">Buy Now</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="img"><img src="assets/images/images (6).jpg"></div>
+                <div class="desc">Cup</div>
+                <div class="title">Coffee set</div>
+                <div class="box">
+                    <div class="price">$36</div>
+                    <button class="btn">Buy Now</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="img"><img src="assets/images/images.jpg"></div>
+                <div class="desc">Men</div>
+                <div class="title">T-shirt</div>
+                <div class="box">
+                    <div class="price">$19</div>
+                    <button class="btn">Buy Now</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="img"><img src="assets/images/images (1).jpg"></div>
+                <div class="desc">Women</div>
+                <div class="title">T-shirt</div>
+                <div class="box">
+                    <div class="price">$15</div>
+                    <button class="btn">Buy Now</button>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <footer>
+        <p>Copyrights at <a href="">Kaipilla</a></p>
+    </footer>
+
+</body>
+
+</html>
